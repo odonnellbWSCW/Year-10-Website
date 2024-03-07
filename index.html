@@ -3,11 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Bryn website</title>
     <link rel="stylesheet" href="style.css"/>
+
+
+    <script>
+        function changething() {
+
+            if (document.getElementById("butin").innerHTML == "grant money")
+            {
+                document.getElementById("baller").innerHTML = "money :D";
+                document.getElementById("butin").innerHTML = "remove money";
+            } else {
+                document.getElementById("baller").innerHTML = "no money D:";
+                document.getElementById("butin").innerHTML = "grant money";}
+        }
+        </script>
+
 </head>
+
+
+
+
 <body>
-    <h1>h</h1>
+    
+    <img src="Frog.JPG" alt="forg">
+    <p1>Ajaykuyiloor, wikimedia commons, CC-BY</p1>
+    <h1>this is my epic website (real)</h1>
+    <p id="baller">money :D</p>
+
+    <button class="button" id="butin" onclick="changething()">remove money</button>
+    
 </body>
-<img src="forg.jpg" alt="forg">
+
+
+
+
 </html>
