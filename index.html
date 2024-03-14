@@ -3,20 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bryn website</title>
+    <title>Baller epic website frfr</title>
     <link rel="stylesheet" href="style.css"/>
 
 
     <script>
+        var a=1
         function changething() {
-
-            if (document.getElementById("butin").innerHTML == "grant money")
-            {
-                document.getElementById("baller").innerHTML = "money :D";
-                document.getElementById("butin").innerHTML = "remove money";
-            } else {
-                document.getElementById("baller").innerHTML = "no money D:";
-                document.getElementById("butin").innerHTML = "grant money";}
+        a=a+1
+        document.getElementById("myText").innerHTML = a;
         }
         </script>
 
@@ -27,12 +22,11 @@
 
 <body>
     
-    <img src="Frog.JPG" alt="forg">
+    <img src="frog.jpg" alt="forg">
     <p1>Ajaykuyiloor, wikimedia commons, CC-BY</p1>
     <h1>this is my epic website (real)</h1>
-    <p id="baller">money :D</p>
 
-    <button class="button" id="butin" onclick="changething()">remove money</button>
+    <button class="button" id="butin" onclick="changething()"><span id="myText">1</span></button>
     
 </body>
 

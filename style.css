@@ -1,6 +1,8 @@
 body {
     background-color:#000000;
     font-family: Verdana, sans-serif;
+    text-align: center;
+    line-height: 0px;
 }
 h1 {font-size: 40px;
     
@@ -12,7 +14,7 @@ p {
     font-size: 100px;
     letter-spacing: 1px;
 }
-.button {background-color: #04AA6D;
+button {background-color: #04AA6D;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -20,6 +22,14 @@ p {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 2px;}
+    margin: 4px 2px;
+    cursor: pointer;
+}
 
-p1 {color: gray;}
+p1 {color: gray;
+line-height: 30px;}
+
+img {
+    width: 100%;
+    height: 400px;
+}
