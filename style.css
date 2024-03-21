@@ -1,22 +1,19 @@
 body {
-    background-color:#000000;
+    background-color:rgb(15, 15, 15);
     font-family: Verdana, sans-serif;
     text-align: center;
-    line-height: 0px;
+    color: white;
 }
 h1 {font-size: 40px;
-    
-    color: white;
-}
+    }
 p {
-    color: white;
     font-family: impact;
     font-size: 100px;
     letter-spacing: 1px;
 }
 button {background-color: #04AA6D;
+    border-radius: 10px;
     border: none;
-    color: white;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -24,12 +21,24 @@ button {background-color: #04AA6D;
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
+    color: white;
 }
 
 p1 {color: gray;
 line-height: 30px;}
 
 img {
-    width: 100%;
-    height: 400px;
+    width: 80%;
+    height: 300px;
+    border-radius: 5px;
+
+}
+
+
+a {
+    color: rgb(131, 230, 255);
+    text-decoration: none;
+    font-family: impact;
+    font-size: 40px;
+    letter-spacing: 1px;
 }
