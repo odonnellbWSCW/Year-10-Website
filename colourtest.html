@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baller epic website frfr</title>
+    <link rel="stylesheet" href="style.css"/>
+
+
+    <script>
+
+        fetch("https://colornames.org/search/json/?hex=0000cc").then(Response => {
+            if (!Response.ok) {
+                throw new Error("Error fetching file")
+            }
+            return Response.json()
+        }).then(data => {
+            console.log(data)
+        })
+
+
+
+
+
+        var a=1
+        function changething() {
+        a=a+1
+        document.getElementById("myText").innerHTML = a;
+        }
+        </script>
+
+</head>
+
+
+
+
+<body>
+    <a href="index.html">back</a>
+
+</body>
+
+
+
+
+</html>

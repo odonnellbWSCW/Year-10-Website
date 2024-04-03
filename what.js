@@ -3,3 +3,4 @@ var a=1
         a=a+1
         document.getElementById("myText").innerHTML = a;
         }
+
