@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tileable YouTube Embed</title>
+    <script src="https://www.youtube.com/iframe_api"></script> <!-- Load YouTube API -->
+</head>
+<body>
+    <!-- Container for the YouTube player -->
+    <div id="player"></div>
+
+    <script>
+        // Function to create YouTube player
+        function onYouTubeIframeAPIReady() {
+            new YT.Player('player', {
+                height: '315', // Adjust height as needed
+                width: '560', // Adjust width as needed
+                videoId: 'CZr_rArqfAM', // Replace 'VIDEO_ID' with the ID of your YouTube video
+                playerVars: {
+                    autoplay: 1, // Autoplay video
+                    mute: 1, // Mute video
+                    controls: 0, // Hide player controls
+                    loop: 1, // Loop vide
+                },
+                events: {
+                    // Uncomment and add any additional event handlers if needed
+                    // 'onReady': onPlayerReady,
+                    // 'onStateChange': onPlayerStateChange
+                }
+            });
+        }
+        new YT.Player('player2', {
+                height: '315',
+                width: '560',
+                videoId: 'CZr_rArqfAM', // Replace 'VIDEO_ID_2' with the ID of your second YouTube video
+                playerVars: {
+                    autoplay: 1,
+                    mute: 1,
+                    controls: 0,
+                    loop: 1,}},
+
+        new YT.Player('player3', {
+                height: '315',
+                width: '560',
+                videoId: 'CZr_rArqfAM', // Replace 'VIDEO_ID_2' with the ID of your second YouTube video
+                playerVars: {
+                    autoplay: 1,
+                    mute: 1,
+                    controls: 0,
+                    loop: 1,}}
+    </script>
+</body>
+</html>
