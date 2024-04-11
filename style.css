@@ -26,19 +26,14 @@ button {background-color: #04AA6D;
 p1 {color: gray;
 line-height: 30px;}
 
-img {
-    width: 80%;
-    height: 300px;
-    border-radius: 5px;
 
-}
 
 a {
     text-align: left;
     padding-left: 0px;
     color: #989b67;
     text-decoration: none;
-    font-family: impact;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 30px;
     letter-spacing: 1px;
 }
@@ -63,4 +58,26 @@ ul {
     margin-left: auto; /* Push to the right */
     /* Add any additional styling for the video container */
     border-radius: 100px;
+}
+
+.reset {
+    all: revert;
+    text-decoration: none;
+}
+
+.box {
+    width: 200px;
+    height: 500;
+    background-color: none;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
 }
